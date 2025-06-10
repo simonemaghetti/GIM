@@ -6,7 +6,8 @@
 
 # Esercizio_1C
 
-### commento_testo
+> #### Commento al testo dato
+> - commento_testo
 
 # Esercizio_2
 
