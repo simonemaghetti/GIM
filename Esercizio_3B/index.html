@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fidget Spinner</title> 
+<!-- aggiungere <style> inserire css </style> -->
+  <style>body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.spinner-container {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    position: relative;
+}
+
+.spinner {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    transform-origin: center center;
+    transition: transform 0.1s linear;
+    cursor: grab;
+}
+
+.spinner-center {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #444;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.arm {
+    position: absolute;
+    width: 30px;
+    height: 80px;
+    background-color: #3a3a3a;
+    top: 20px;
+    left: 85px;
+    border-radius: 15px;
+    transform-origin: center 80px;
+}
+
+.arm:nth-child(1) {
+    transform: rotate(0deg);
+}
+
+.arm:nth-child(2) {
+    transform: rotate(120deg);
+}
+
+.arm:nth-child(3) {
+    transform: rotate(240deg);
+}
+
+.weight {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: #222;
+    border-radius: 50%;
+    top: -25px;
+    left: -20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.clock {
+    width: 58px;
+    height: 58px;
+    background-color: #000;
+    color: #0f0;
+    font-family: 'Courier New', monospace;
+    border-radius: 50%;
+    box-shadow: inset 0 0 5px #0f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    border: 1px solid #0f0;
+}
+
+.time {
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+
+.location {
+    font-size: 8px;
+    text-transform: uppercase;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 0 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #000;
+    color: #0f0;
+    border: 1px solid #0f0;
+    border-radius: 50%;
+    font-family: 'Courier New', monospace;
+    box-shadow: inset 0 0 5px #0f0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    min-width: 80px;
+    min-height: 80px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #001a00;
+}
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="spinner-container">
+            <div class="spinner" id="spinner">
+                <div class="arm">
+                    <div class="weight">
+                        <div class="clock">
+                            <div class="time" id="clock1">00:00:00</div>
+                            <div class="location">New York</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="arm">
+                    <div class="weight">
+                        <div class="clock">
+                            <div class="time" id="clock2">00:00:00</div>
+                            <div class="location">Mendrisio</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="arm">
+                    <div class="weight">
+                        <div class="clock">
+                            <div class="time" id="clock3">00:00:00</div>
+                            <div class="location">Tokyo</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="spinner-center"></div>
+            </div>
+        </div>
+        
+        <div class="controls">
+            <button id="toggle-button">GIRA</button>
+        </div>
+    </div>
+    <!-- al posto di script mettere sketch-->
+     <!-- collegamento file js-->
+    <script src="sketch.js"></script>
+</body>
+</html>
