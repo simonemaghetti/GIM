@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="author" content="Nome Cognome" />
+	<title>img</title>
+	<style type="text/css">
+		html{
+			height:100%;
+		}
+		body{
+			background-color: rgb(235,235,235);
+			margin: 3em 2em;
+		}
+	</style>
+
+</head>
+<body>
+
+	<img />
+
+	<script type="module">
+
+		const sequenza = [
+"img/sm_griglia00.png",
+"img/sm_griglia01.png",
+"img/sm_griglia02.png",
+"img/sm_griglia03.png",
+"img/sm_griglia04.png",
+"img/sm_griglia05.png",
+"img/sm_griglia06.png",
+"img/sm_griglia07.png",
+"img/sm_griglia08.png",
+"img/sm_griglia09.png",
+"img/sm_griglia10.png",
+"img/sm_griglia11.png",
+"img/sm_griglia12.png",
+"img/sm_griglia13.png",
+"img/sm_griglia14.png",
+"img/sm_griglia15.png",
+"img/sm_griglia16.png",
+"img/sm_griglia17.png",
+"img/sm_griglia18.png",
+"img/sm_griglia19.png",
+"img/sm_griglia20.png",
+"img/sm_griglia21.png",
+"img/sm_griglia22.png",
+"img/sm_griglia23.png",
+"img/sm_griglia24.png",
+"img/sm_griglia25.png",
+"img/sm_griglia26.png",
+"img/sm_griglia27.png",
+"img/sm_griglia28.png",
+"img/sm_griglia29.png",
+"img/sm_griglia30.png",
+"img/sm_griglia31.png",
+"img/sm_griglia32.png",
+"img/sm_griglia33.png",
+"img/sm_griglia34.png",
+"img/sm_griglia35.png",
+"img/sm_griglia36.png",
+"img/sm_griglia37.png",
+"img/sm_griglia38.png",
+"img/sm_griglia39.png",
+"img/sm_griglia40.png",
+"img/sm_griglia41.png",
+"img/sm_griglia42.png",
+"img/sm_griglia43.png",
+"img/sm_griglia44.png",
+"img/sm_griglia45.png",
+"img/sm_griglia46.png",
+"img/sm_griglia47.png",
+"img/sm_griglia48.png",
+"img/sm_griglia49.png",
+"img/sm_griglia50.png",
+"img/sm_griglia51.png",
+"img/sm_griglia52.png",
+"img/sm_griglia53.png",
+"img/sm_griglia54.png",
+"img/sm_griglia55.png",
+"img/sm_griglia56.png",
+"img/sm_griglia57.png",
+"img/sm_griglia58.png",
+"img/sm_griglia59.png",
+"img/sm_griglia60.png",
+"img/sm_griglia61.png",
+"img/sm_griglia62.png",
+"img/sm_griglia63.png",
+			
+		]
+
+		let frame = 0
+
+		setInterval(() => {
+			const img = document.querySelector("img")
+			img.src = sequenza[frame]
+			frame = (frame + 1) % sequenza.length
+		}, 20)
+
+	</script>
+</body>
+</html>
