@@ -3,7 +3,7 @@
 [Spostamento]()
 
 # Esercizio_1B
-[]()
+[logo animazione](/Esercizio_1B/esercizio_1b/index.html)
 
 # Esercizio_1C
 []()
