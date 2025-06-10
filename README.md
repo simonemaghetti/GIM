@@ -13,5 +13,5 @@
 
 
 # Esercizio_3B
-[orologio](/Esercizio_3B/index.html)
+[orologio](https://simonemaghetti.github.io/GIM/Esercizio_3B/index.html)
 
