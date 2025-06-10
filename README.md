@@ -15,7 +15,7 @@
 []()
 
 # Esercizio_3A
-[pioggia](/Esercizio_3A/index.html)
+[pioggia](https://simonemaghetti.github.io/GIM/Esercizio_3A/index.html)
 
 # Esercizio_3B
 [orologio](https://simonemaghetti.github.io/GIM/Esercizio_3B/index.html)
