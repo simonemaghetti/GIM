@@ -20,8 +20,8 @@
 
 # Esercizio_3A
 [pioggia](https://simonemaghetti.github.io/GIM/Esercizio_3A/index.html)
-[neve](https://simonemaghetti.github.io/GIM/Esercizio_3A_2/index.html)
-[pong](https://simonemaghetti.github.io/GIM/Esercizio_3A_3/index.html)
+[neve](https://simonemaghetti.github.io/GIM/Esercizio_3A2/index.html)
+[pong](https://simonemaghetti.github.io/GIM/Esercizio_3A3/index.html)
 
 # Esercizio_3B
 [orologio](https://simonemaghetti.github.io/GIM/Esercizio_3B/index.html)
