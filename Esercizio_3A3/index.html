@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    overflow: hidden;
+    font-family: 'Courier New', monospace;
+}
+
+#gameContainer {
+    position: relative;
+    width: 800px;
+    height: 500px;
+    border: 2px solid #00ff00;
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
+}
+
+.instructions {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #ccc;
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 8px;
+    border-radius: 5px;
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid rgba(0, 255, 0, 0.3);
+}
+
+#gameCanvas {
+    background-color: #000;
+    display: block;
+    border: 2px solid #00ff00;
+}
+
+#timer {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    color: #00ff00;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Courier New', monospace;
+    text-shadow: 0 0 10px rgba(0, 255, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 255, 0, 0.3);
+}
+
+#score {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #00ff00;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Courier New', monospace;
+    text-shadow: 0 0 10px rgba(0, 255, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    border-radius: 10px;
+    width: 120px;
+    margin: 0 auto;
+    border: 1px solid rgba(0, 255, 0, 0.3);
+}
+
+#gameCanvas-container {
+    position: relative;
+}</style>
+    <title>Pong con Effetto Matrix</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="gameContainer">
+        <div id="gameCanvas-container">
+            <canvas id="gameCanvas" width="800" height="500"></canvas>
+            <div id="timer">01:00</div>
+        </div>
+        <div id="score">0 - 0</div>
+        <div class="instructions">Muovi la racchetta sinistra con il mouse | Racchetta destra: IA | Durata partita: 1 minuto</div>
+    </div>
+
+    <script src="sketch.js"></script>
+</body>
+</html>
