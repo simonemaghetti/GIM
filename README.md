@@ -13,7 +13,7 @@
 - [logo animazione](https://simonemaghetti.github.io/GIM/Esercizio_1B/esercizio_1b/index.html),
 
 # Esercizio_1C
-- []()
+- ### commento: 
 
 # Esercizio_2
 - [parallasse](https://simonemaghetti.github.io/GIM/Esercizio_2/index.html),
