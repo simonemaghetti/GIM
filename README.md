@@ -13,7 +13,7 @@
 - [logo animazione](https://simonemaghetti.github.io/GIM/Esercizio_1B/esercizio_1b/index.html),
 
 # Esercizio_1C
-- ### commento: 
+- ### commento: Questo testo ci invita a riflettere su come la continua ricerca della perfezione che l'uomo si auto-impone possa fargli perdere la sua grazia naturale e spontanea. Kleist non intende glorificare l'imperfezione o promuovere l'irrazionalità. Al contrario, il Signor C. ammira i movimenti meccanici delle marionette, considerandoli più aggraziati di quelli umani. Questo perché le marionette sono guidate unicamente da un centro di gravità ben preciso, mentre i ballerini, guidati dalla coscienza umana, perdono la purezza e l'autenticità dei movimenti. Il suo intento è trovare un'armonia tra spontaneità inconscia e razionalità, dando vita a una nuova forma di consapevolezza.
 
 # Esercizio_2
 - [parallasse](https://simonemaghetti.github.io/GIM/Esercizio_2/index.html),
